@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/jdp/src/github/dpurge/anki-data"
+		},
+		{
+			"path": "/jdp/src/github/dpurge/epub-langnotes"
+		},
+		{
+			"path": "/jdp/src/github/dpurge/vscode-jdplang"
+		}
+	],
+	"settings": {}
+}

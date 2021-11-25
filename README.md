@@ -42,3 +42,49 @@ If you need to unregister it:
 wsl --unregister DPurge
 ```
 
+## Setup system
+
+Update system:
+
+```bash
+apt update
+apt upgrade
+```
+
+Install software:
+
+```bash
+apt install mc
+apt install nodejs
+apt install npm
+```
+
+## Configure git
+
+Generate SSH keypair:
+
+```bash
+ssh-keygen -t rsa
+```
+
+Add public key in GitHub:
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+Confihure git user:
+
+```bash
+git config --global user.name "D. Purge"
+git config --global user.email ...@...
+```
+
+Clone repositories:
+
+```bash
+mkdir /jdp/src/github/dpurge
+cd /jdp/src/github/dpurge
+git clone git@github.com:dpurge/wsl-setup.git
+git clone git@github.com:dpurge/jdp-miniweb.git
+```
