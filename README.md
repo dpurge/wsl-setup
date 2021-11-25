@@ -88,3 +88,9 @@ cd /jdp/src/github/dpurge
 git clone git@github.com:dpurge/wsl-setup.git
 git clone git@github.com:dpurge/jdp-miniweb.git
 ```
+
+## Windows terminal
+
+- Name: `DPurge`
+- Command line: `wsl.exe -d DPurge`
+- Starting directory: `\\wsl$\DPurge\jdp`
